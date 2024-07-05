@@ -1,0 +1,39 @@
+# Node.js
+node_modules/
+
+# Dependency directories
+# (avoid pushing the local dependencies to the repository)
+bower_components/
+jspm_packages/
+
+# macOS
+.DS_Store
+
+# Webpack
+dist/
+build/
+
+# IDE files
+.vscode/
+.idea/
+
+# Logs and databases
+*.log
+*.sqlite
+
+# Environment variables
+.env
+
+# Tailwind CSS
+# Ensure to ignore the build output if you're compiling Tailwind
+/dist/styles.css
+
+# OS-generated files
+Thumbs.db
+ehthumbs.db
+
+# Compiled Python files
+*.pyc
+
+# Compiled Java classes
+*.class
