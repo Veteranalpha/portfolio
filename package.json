@@ -1,5 +1,14 @@
 {
-  "devDependencies": {
-    "tailwindcss": "^3.4.4"
-  }
+  "name": "porfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "build:css": "tailwindcss build -i ./src/input.css -o ./src/output.css",
+    "watch:css": "tailwindcss build -i ./src/input.css -o ./src/output.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "npm run watch:css"
+  },
+  "author": "Giwa Mubarak",
+  "license": "MIT"
 }
