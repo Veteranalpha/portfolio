@@ -151,11 +151,12 @@ input{
 
 #About{
     padding:5vw 6vw 7vw 6vw;
+    font-family: 'Poppins', sans-serif;
 }
-.text-about{
+/* .text-about{
     line-height: 2;
     color: #91e0b4;
-}
+} */
 .text-links{
     color:#91e0b4    
 }
