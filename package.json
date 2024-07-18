@@ -10,5 +10,9 @@
     "watch": "npm run watch:css"
   },
   "author": "Giwa Mubarak",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap-icons": "^1.11.3",
+    "tailwindcss": "^3.4.4"
+  }
 }

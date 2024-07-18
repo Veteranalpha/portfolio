@@ -12,38 +12,56 @@
 </head>
 <body>
   
-<div class="container">
-    <input type="checkbox" id="check">
-    <header class="section">
-      <div class="title-brand">VETERAN.</div>
-      <nav id="navbar">
-        <ul>
-          <li>
-            <a href="#home">Home</a>
-          </li>
-          <li>
-            <a  href="#About" >About</a>
-          </li>
-          <li>
-           <a  href="#projects">Projects</a>
-          </li>
-        </ul>
-       </nav>
-       <label for="check"><i class="fa-solid fa-bars"></i></label>
-    </header>
+
+<section class="glasscolor fixed w-full z-50">
+  <div class="container mx-auto z-50 flex w-full justify-between  items-center pointer text-white py-3">
+  <input type="checkbox" id="check">
+    <div class="text-3xl font-bold text-babyblue cursor-pointer">GM.</div>
+    <nav>
+      <ul class="md:flex hidden space-x-14  text-sm items-center justify-center">
+        <li class="underline-transition pb-1 hover:font-bold"> 
+          <a href="#home"><i class="fa-solid fa-house pr-2 "></i>Home</a>
+        </li>
+        <li class="underline-transition pb-1 hover:font-bold">
+          <a  href="#About"><i class="fa-solid fa-user pr-2 "></i>About</a>
+        </li>
+        <li class="underline-transition pb-1 hover:font-bold">
+         <a  href="#projects"><i class="fa-solid fa-folder-open pr-2"></i>Projects</a>
+        </li>
+        <li class="pb-1">
+          <a href="https://github.com/Veteranalpha" target="_blank" class="px-5 rounded-md bg-babyblue cursor-pointer md:flex hidden hover:px-6 hover:py-1 transition-all ease-in-out duration-100">
+            <i class="fa-brands fa-github text-2xl "></i>
+       </a>
+        </li>
+      </ul>
+     </nav> 
+     
+
+     <div class="cursor-pointer flex md:hidden">
+      <i class="fa-solid fa-bars text-2xl text-babyblue"></i>
+     </div>
+  </div>
+</section>
+
+    
 
 
-    <main>
-
-      <section id="home">
-        <div class="text-container">
-            <h2>front-end <br> Developer</h2>
-            <h5>A full stack web developer based in Ogun, Nigeria.</h5>
-            <a href="#About" class="btn">About &#x2192</a>
+    <main class="bg-darkpurple relative">
+     
+      <section id="home" class="container mx-auto grid md:grid-cols-2 grid-cols-1 gap-2 justify-center items-center w-full h-screen max-h-[800px] relative pt-20">
+        <div class="absolute w-20 h-16 bg-babyblue bottom-0 left-0 opacity-30"></div>
+        <div class="absolute w-40 h-32 bg-babyblue top-16 right-40 rounded-r-md rounded-t-xl rounded-l-xl rounded-b-lg opacity-35"></div>
+        <div class="text-container flex flex-1 md:justify-center flex-col items-start justify-center px-4  text-white ">
+            <h2 class=" font-medium text-4xl md:leading-loose leading-snug">Hi There! 👋</h2>
+            <h5 class="text-3xl font-medium tracking-wide lg:text-5xl ">
+              I'M <span class="text-babyblue font-bold">GIWA MUBARAK</span> <br><br>
+              <span class="text-babyblue font-semibold">Software Developer </span> 
+            </h5>
+            
         </div>
-        <div class="image-box">
-         <img class="image" src="avatar .png" alt="avatar">
-         <span class="animblob"></span>
+        <div class="image-box flex flex-1 justify-center items-start" >
+         <img class="image object-cover  md:h-full h-1/2 w-3/4" src="assets\home image.svg" alt="avatar">
+         <!-- <span class="animblob"></span> -->
         </div>
       </section>
 
@@ -122,6 +140,5 @@
                     </li>
                 </ul>
     </footer>
-</div>
 </body>
 </html>
