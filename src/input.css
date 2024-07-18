@@ -44,8 +44,8 @@
 .glasscolor{
 background: rgba(18, 15, 25, 0.41);
 box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(1.8px);
--webkit-backdrop-filter: blur(1.8px);
+/* backdrop-filter: blur(1.8px);
+-webkit-backdrop-filter: blur(1.8px); */
 }
  #home{
     /* display: flex;
@@ -214,11 +214,14 @@ filter:blur(0.1vw);
     display: inline;
     transition: 0.5s ease-in;
 }
+/**
 footer{
-    display: flex;
-    flex-direction:column;
-    align-items: center;
+    background: rgba(18, 15, 25, 0.41);
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(1.8px);
+-webkit-backdrop-filter: blur(1.8px)
 }
+
 footer p{
    color: lightgray;
    text-shadow: 0px 5px 10px rbga(0,0,0,0.5);
@@ -230,7 +233,7 @@ footer ul{
     display: flex;
     justify-content: space-between;
 }
-
+ */
 
 /*======================================================MEDIA QUERIES===============================================================*/
 @media screen and (max-width:850px) {
@@ -336,8 +339,8 @@ footer ul{
             display: inline;
             transition: 0.5s ease-in;
         }
-        footer p{
+        /* footer p{
             font-size:3vw;
           
-         }
+         } */
 }
