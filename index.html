@@ -17,7 +17,7 @@
   <div class="container mx-auto z-50 flex w-full justify-between  items-center pointer text-white py-3 ">
   <input type="checkbox" id="check">
     <div class="text-3xl font-bold text-babyblue cursor-pointer">GM.</div>
-    <nav class="nav-head relative mx-auto overflow-x-visible">
+    <nav class="nav-head relative  overflow-x-visible">
       <ul class="md:flex hidden space-x-14  text-sm items-center justify-center nav-bar">
         <li class="underline-transition pb-1 hover:font-bold"> 
           <a href="#home"><i class="fa-solid fa-house pr-2 "></i>Home</a>
@@ -44,7 +44,15 @@
         <!-- <i class="fa-solid fa-xmark" style="color: #7ec8e3;"></i> -->
      </div>
   </div>
-  <div id="overlay" class="fixed inset-0 bg-babyblue hidden z-40"></div>
+  <div class="hidden bg-darkpurple md:hidden" id="mobile-menu">
+    <div class="space-y-1 px-2 pb-3 pt-2">
+      <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+      <a href="#" class="block rounded-md bg-gray-900 px-3 py-2 text-xl font-medium text-white text-center" aria-current="page"><i class="fa-solid fa-house pr-2 "></i>Home</a>
+      <a href="#" class="block rounded-md px-3 py-2 text-xl font-medium text-gray-300 hover:bg-gray-700 hover:text-white text-center"><i class="fa-solid fa-user pr-2 "></i>About</a>
+      <a href="#" class="block rounded-md px-3 py-2 text-xl font-medium text-gray-300 hover:bg-gray-700 hover:text-white text-center"><i class="fa-solid fa-folder pr-2 "></i>Projects</a>
+     
+    </div>
+  </div>
 </section>
 
     
